@@ -1726,7 +1726,7 @@ textarea.form-control {
   padding-left: 1.25rem; }
 
 .form-check-input {
-  position: absolute;
+  /* position: absolute; */
   margin-top: 0.3rem;
   margin-left: -1.25rem; }
   .form-check-input:disabled ~ .form-check-label {
@@ -1758,7 +1758,7 @@ textarea.form-control {
   color: #28a745; }
 
 .valid-tooltip {
-  position: absolute;
+  /* position: absolute; */
   top: 100%;
   z-index: 5;
   display: none;
@@ -1859,7 +1859,7 @@ textarea.form-control {
   color: #dc3545; }
 
 .invalid-tooltip {
-  position: absolute;
+  /* position: absolute; */
   top: 100%;
   z-index: 5;
   display: none;
@@ -2541,7 +2541,7 @@ input[type="button"].btn-block {
     margin-left: 0; }
 
 .dropdown-menu {
-  position: absolute;
+  /* position: absolute; */
   top: 100%;
   left: 0;
   z-index: 1000;
@@ -2821,7 +2821,7 @@ input[type="button"].btn-block {
   .btn-group-toggle > .btn input[type="checkbox"],
   .btn-group-toggle > .btn-group > .btn input[type="radio"],
   .btn-group-toggle > .btn-group > .btn input[type="checkbox"] {
-    position: absolute;
+    /* position: absolute; */
     clip: rect(0, 0, 0, 0);
     pointer-events: none; }
 
@@ -3003,7 +3003,7 @@ input[type="button"].btn-block {
   margin-right: 1rem; }
 
 .custom-control-input {
-  position: absolute;
+  /* position: absolute; */
   z-index: -1;
   opacity: 0; }
   .custom-control-input:checked ~ .custom-control-label::before {
@@ -3029,7 +3029,7 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   vertical-align: top; }
   .custom-control-label::before {
-    position: absolute;
+    /* position: absolute; */
     top: 0.25rem;
     left: -1.5rem;
     display: block;
@@ -3040,7 +3040,7 @@ input[type="button"].btn-block {
     background-color: #fff;
     border: #adb5bd solid 1px; }
   .custom-control-label::after {
-    position: absolute;
+    /* position: absolute; */
     top: 0.25rem;
     left: -1.5rem;
     display: block;
@@ -3184,7 +3184,7 @@ input[type="button"].btn-block {
     content: attr(data-browse); }
 
 .custom-file-label {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   right: 0;
   left: 0;
@@ -3198,7 +3198,7 @@ input[type="button"].btn-block {
   border: 1px solid #ced4da;
   border-radius: 0.25rem; }
   .custom-file-label::after {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     bottom: 0;
@@ -3479,7 +3479,7 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0; }
   .navbar-nav .dropdown-menu {
-    position: static;
+    /* position: static; */
     float: none; }
 
 .navbar-text {
@@ -3537,7 +3537,8 @@ input[type="button"].btn-block {
       -ms-flex-direction: row;
       flex-direction: row; }
       .navbar-expand-sm .navbar-nav .dropdown-menu {
-        position: absolute; }
+        /* position: absolute;  */
+      }
       .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
@@ -3575,7 +3576,8 @@ input[type="button"].btn-block {
       -ms-flex-direction: row;
       flex-direction: row; }
       .navbar-expand-md .navbar-nav .dropdown-menu {
-        position: absolute; }
+        /* position: absolute;  */
+      }
       .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
@@ -3613,7 +3615,8 @@ input[type="button"].btn-block {
       -ms-flex-direction: row;
       flex-direction: row; }
       .navbar-expand-lg .navbar-nav .dropdown-menu {
-        position: absolute; }
+        /* position: absolute;  */
+      }
       .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
@@ -3651,7 +3654,8 @@ input[type="button"].btn-block {
       -ms-flex-direction: row;
       flex-direction: row; }
       .navbar-expand-xl .navbar-nav .dropdown-menu {
-        position: absolute; }
+        /* position: absolute; */
+       }
       .navbar-expand-xl .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
@@ -3686,7 +3690,8 @@ input[type="button"].btn-block {
     -ms-flex-direction: row;
     flex-direction: row; }
     .navbar-expand .navbar-nav .dropdown-menu {
-      position: absolute; }
+      /* position: absolute;  */
+    }
     .navbar-expand .navbar-nav .nav-link {
       padding-right: 0.5rem;
       padding-left: 0.5rem; }
