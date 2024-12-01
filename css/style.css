@@ -8368,6 +8368,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase; }
 
 .hero h3.vr {
+  overflow: scroll;
   -webkit-writing-mode: vertical-lr;
   -ms-writing-mode: tb-lr;
   writing-mode: vertical-lr;
